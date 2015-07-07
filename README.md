@@ -2,11 +2,14 @@
 生成mybatis反向配置文件
 ## 使用说明
 直接查看根目录下
-		>DBConnection.xml
+>DBConnection.xml
+
 修改相应的数据库连接属性，然后直接到tst目录下，修改
-		>AppTest.java
+>AppTest.java
+
 的
-		>public void testGeneratorUtil();
+>public void testGeneratorUtil();
+
 方法参数，然后直接运行，即可在根目录下生成逆向工程所需的配置文件。
 ## 方法说明
 ```java
