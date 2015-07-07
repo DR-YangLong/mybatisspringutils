@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<db>
+
+	<mysql>
+		<username>root</username>
+		<password>root</password>
+		<driver>com.mysql.jdbc.Driver</driver>
+		<url>jdbc:mysql://127.0.0.1:3306/db</url>
+	</mysql>
+	
+	<orcl>
+		<username>sys as sysdba</username>
+		<password>orcl</password>
+		<driver>oracle.jdbc.driver.OracleDriver</driver>
+		<url>jdbc:oracle:thin:@localhost:1521:orcl</url>
+	</orcl>
+	
+	<orcl_scott>
+		<username>scott</username>
+		<password>tiger</password>
+		<driver>oracle.jdbc.driver.OracleDriver</driver>
+		<url>jdbc:oracle:thin:@localhost:1521:orcl</url>
+	</orcl_scott>
+	
+	<sqlserver>
+		<driver>com.microsoft.jdbc.sqlserver.SQLServerDriver</driver>
+		<url>jdbc:microsoft:sqlserver://localhost:1433;databasename=pubs</url>
+		<username>sa</username>
+		<password>sa</password>
+	</sqlserver>
+	
+</db>
